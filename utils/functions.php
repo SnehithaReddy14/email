@@ -12,7 +12,7 @@ function sendComic( $to, $subject, $message, $attachments = array() ) {
 	$headers   = array();
 	$headers[] = "To: {$to}";
 	$headers[] = 'From: Team Comic <comics@varad.com>';
-	$headers[] = 'Reply-To: Varad Patil <varadpatil@gmail.com>';
+	$headers[] = 'Reply-To: Gulla Snehitha <snehitha.g.reddy@gmail.com>';
 	$headers[] = 'X-Mailer: PHP/' . phpversion();
 
 	$headers[] = 'MIME-Version: 1.0';
